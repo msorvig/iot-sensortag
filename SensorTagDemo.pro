@@ -14,6 +14,9 @@ QT += \
 CONFIG += c++11
 DEFINES += QT_NO_FOREACH
 
+OBJECTS_DIR = .obj
+MOC_DIR = .obj
+
 # Specify UI layout to use: UI_SMALL or UI_WATCH
 emscripten {
     DEFINES += UI_SMALL
